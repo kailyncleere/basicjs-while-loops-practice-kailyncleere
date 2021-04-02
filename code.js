@@ -19,7 +19,7 @@ console.log("Exercise One"); // Do not modify the lines like this before each ex
 // Write your code here 👇
 
 index = 0;
-while (index < 2) {
+while (index < 10) {
   console.log(index);
   index++;
 }
@@ -35,10 +35,11 @@ console.log("Exercise Two");
 //
 // Write your code here 👇
 
-// index = 0;
-// while (index < 15) {
-//   console.log(index);
-// }
+index = 0;
+while (index < 16) {
+  console.log(index);
+  index++;
+}
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Three");
@@ -48,7 +49,12 @@ console.log("Exercise Three");
 // - Hint: Look at the reading, there is an example of this.
 // - Hint 2: Remember to set index = 0;
 // Write your code here 👇
-
+let min = 1
+index = 0;
+while (index <= 20) {
+console.log(index);
+index++;
+}
 
 
 // ----------------------------------------------------------------------------------------------
