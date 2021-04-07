@@ -49,11 +49,11 @@ console.log("Exercise Three");
 // - Hint: Look at the reading, there is an example of this.
 // - Hint 2: Remember to set index = 0;
 // Write your code here 👇
-let min = 1
+
 index = 0;
-while (index <= 20) {
-console.log(index);
-index++;
+while (21 > index > 0) {
+  console.log(index);
+  index++;
 }
 
 
@@ -65,6 +65,12 @@ console.log("Exercise Four");
 //   (This should include the number 20, and the number 2, but not include the number 0)
 //
 // Write your code here 👇
+index = 2;
+while (index <= 20){
+  console.log(index);
+  index += 2;
+  
+}
 
 
 // ----------------------------------------------------------------------------------------------
@@ -75,6 +81,11 @@ console.log("Exercise Five");
 //   (This should include the number 9, and the number 1, but not include the number 0)
 //
 // Write your code here 👇
+index = 1;
+while (index < 20){
+  console.log(index);
+  index += 2;
+}
 
 
 // ----------------------------------------------------------------------------------------------
@@ -85,7 +96,11 @@ console.log("Exercise Six");
 //   (This should include the number 100, and the number 5)
 //
 // Write your code here 👇
-
+index = 5;
+while (index <= 100){
+  console.log(index);
+  index +=5;
+}
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Seven");
@@ -95,7 +110,11 @@ console.log("Exercise Seven");
 //   (This should include the number 20, but not include the number 0)
 //
 // Write your code here 👇
-
+index = 20;
+while (index > 0){
+  console.log(index);
+  index --;
+}
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Eight");
@@ -105,7 +124,11 @@ console.log("Exercise Eight");
 //   (This should include the number 20, but not include the number 0)
 //
 // Write your code here 👇
-
+index = 20;
+while (index > 0){
+  console.log(index);
+  index -= 2;
+}
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Nine");
@@ -115,7 +138,11 @@ console.log("Exercise Nine");
 //   (This should include the number 19, but not include the number 0)
 //
 // Write your code here 👇
-
+index = 19;
+while (index > 0){
+  console.log(index);
+  index -=2;
+}
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Ten");
@@ -125,7 +152,11 @@ console.log("Exercise Ten");
 //   (This should include the number 100, but not include the number 0)
 //
 // Write your code here 👇
-
+index = 100;
+while (index >= 5){
+  console.log(index);
+  index -=5;
+}
 
 
 // When you are done with all of the exercises, check your console output to make sure it
